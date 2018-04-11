@@ -1,0 +1,19 @@
+img {
+    height: 150px;
+}
+.row {
+    margin: 30px;
+}
+.crystal {
+    margin: 5px;
+    background: none;
+    border: none;
+}
+.container {
+    min-width: 550px;
+}
+#notification {
+    padding-top: 10px;
+    color: red;
+    height: 39px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>CRYSTAL COLLECTOR</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+<div class="row">
+    <div class="col-12 text-center"> 
+        <h1>CRYSTAL COLLECTOR</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 text-center"> 
+        <button class="btn btn-dark instructions">instructions</button>
+    </div>
+</div>
+      
+<div class="row">
+    <div class="col-12 text-center align-middle">
+        <h6 id="notification"></h6>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6 text-center">
+        <h4>target score - <span id="randomNum">0</span></h4>
+    </div>
+    <div class="col-6 text-center">
+        <h4>your score - <span id="userNum">0</span></h4>
+    </div>    
+</div>
+
+<div class="=container">
+    <div class="row justify-content-center">
+        <div class="col-4 col-xl-2">
+            <button class="crystal" value="0"><img src="assets/images/crystal1.png"></button>
+        </div>
+        <div class="col-4 col-xl-2">
+            <button class="crystal" value="1"><img src="assets/images/crystal2.png"></button>
+        </div>
+        <div class="col-4 col-xl-2">
+            <button class="crystal" value="2"><img src="assets/images/crystal3.png"></button>
+        </div>
+        <div class="col-4 col-xl-2">
+            <button class="crystal" value="3"><img src="assets/images/crystal4.png"></button>
+        </div>
+        <div class="col-4 col-xl-2">   
+            <button class="crystal" value="4"><img src="assets/images/crystal5.png"></button>
+        </div>
+        <div class="col-4 col-xl-2">
+            <button class="crystal" value="5"><img src="assets/images/crystal6.png"></button>
+        </div>
+    </div>
+</div>    
+
+<div class="row">
+    <div class="col-6 text-center">
+        <h4>wins - <span id="wins">0</span></h4>
+    </div>
+    <div class="col-6 text-center">
+        <h4>losses - <span id="losses">0</span></h4>
+    </div>    
+</div>
+
+</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
